@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(250, 236, 239);
+}
+
+nav {
+    font-size: 1.2vw;
+    height: 10vw;
+}
+
+.logo {
+    position: absolute;
+    width: 10vw;
+    margin-top: 4.3vw;
+    margin-left: 10vw;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    margin-left: 25vw;
+    margin-top: 5vw;
+}
+
+li {
+    padding-left: 3vw;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.dropbtn {
+    background: none;
+    color: gray;
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    color: gray;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    padding-left: 4vw;
+    width: 30vw;
+    height: 18.5vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Spense {
+    margin-top: 1vw;
+    margin-bottom: .3vw;
+    color: darkslategrey;
+    font-weight: 700;
+}
+
+.fiber {
+    margin-top: 1vw;
+    margin-bottom: .3vw;
+    color: darkslategrey;
+    font-weight: 700;
+}
+
+.gradie {
+    margin-top: 1vw;
+    margin-bottom: .3vw;
+    color: darkslategrey;
+    font-weight: 700;
+}
+
+.dropdown-content a {
+    color: gray;
+    padding: 1vw;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
+
+.spense-icon {
+    position: absolute;
+    margin-left: -2.2vw;
+    margin-top: .8vw;
+}
+
+.fiber-icon {
+    position: absolute;
+    margin-left: -2.2vw;
+    margin-top: .8vw;
+}
+
+.gradie-icon {
+    position: absolute;
+    margin-left: -2.2vw;
+    margin-top: .8vw;
+}
+
+.sign-in-btn {
+    position: absolute;
+    margin-left: 73vw;
+    margin-top: -1.2vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+#nav-btn {
+    position: absolute;
+    margin-left: 19vw;
+    margin-top: 4.5vw;
+    background-color: rgb(32, 43, 15);
+    color: white;
+    font-size: 1.6vw;
+    border: none;
+    border-radius: .5vw;
+    width: 15vw;
+    height: 4vw;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 5vw;
+}
+
+.description {
+    color: gray;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+section {
+    color: rgb(255, 199, 15);
+}
+
+.container {
+    font-size: 1.2vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 55vw;
+}
+
+#container-btn {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: rgb(32, 43, 15);
+    color: white;
+    font-size: 1.6vw;
+    border: none;
+    border-radius: .5vw;
+    width: 15vw;
+    height: 4vw;
+}
+
+.review {
+    position: absolute;
+    margin-left: 19.5vw;
+    margin-top: -1.2vw;
+    width: 1.5vw;
+}
+
+.review-2 {
+    position: absolute;
+    margin-left: 21.5vw;
+    margin-top: -1.2vw;
+    width: 1.5vw;
+}
+
+.rating {
+    color: gray;
+}
+
+.trusted-companies {
+    text-align: center;
+    margin-top: 15vw;
+    font-size: 1.2vw;
+    color: gray;
+}
+
+.companies-logo {
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    padding-left: 7.8vw;
+    width: 15vw;
+}
+
+.hero-img {
+    position: absolute;
+    width: 25vw;
+    margin-top: 5vw;
+    margin-left: 65vw;
+}
