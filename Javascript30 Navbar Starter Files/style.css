@@ -106,18 +106,21 @@ button {
     position: absolute;
     margin-left: -2.2vw;
     margin-top: .8vw;
+    width: 5vw;
 }
 
 .fiber-icon {
     position: absolute;
     margin-left: -2.2vw;
     margin-top: .8vw;
+    width: 5vw;
 }
 
 .gradie-icon {
     position: absolute;
     margin-left: -2.2vw;
     margin-top: .8vw;
+    width: 5vw;
 }
 
 .sign-in-btn {
